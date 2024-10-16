@@ -1,0 +1,12 @@
+version: '3.4'
+
+services:
+  protobufjs:
+    image: protobufjs
+    build:
+      context: deploy/node_modules/protobufjs
+      dockerfile: ./Dockerfile
+    environment:
+      NODE_ENV: production
+    ports:
+      - 3000:3000

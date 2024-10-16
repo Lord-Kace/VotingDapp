@@ -1,0 +1,15 @@
+/* Footer.css */
+.footer {
+    background-color: #2a9d8f;
+    color: white;
+    padding: 10px;
+    text-align: center;
+   }
+   .footer .social-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+   }
+   .footer .social-links a:hover {
+    text-decoration: underline;
+   }
